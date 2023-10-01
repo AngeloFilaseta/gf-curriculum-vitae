@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: DanySK/compile-and-publish-all-latex@1.0.47
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
